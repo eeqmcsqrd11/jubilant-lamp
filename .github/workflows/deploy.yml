@@ -16,6 +16,9 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v4
       
+      - name: Run tests
+        run: node test.js
+
       - name: Setup Pages
         uses: actions/configure-pages@v4
       
